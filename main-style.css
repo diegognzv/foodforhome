@@ -1,5 +1,98 @@
-@import url("element-styles/navbar.css");
+@import url("assets/components/navbar.css");
 
 .container {
     position: relative;
 }
+
+
+main{
+    position: relative;
+    border: 2px solid red;
+    width: 305px;
+    height: 370px;
+}
+.menu-1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     height: 360px;
+     width: 95px;
+     border:2px solid blue;
+     margin: 10px;
+     
+     
+}
+/*menu-button-1!*/
+ .cm1{
+    
+     position: relative;
+     margin:0 ;
+     width: 100px;
+     height: auto;
+     border:2px solid yellow;
+     left: 125px;
+     bottom: 375px;
+     }
+
+     main.sauce{
+        margin-top: 0;
+        margin:0 ;
+        padding: 0;
+   font-size: 10px;
+    }
+   main .price{
+        color: red;
+        margin:0;
+        padding: 0;
+        margin-top: 0;
+    }
+    .cm1  p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mas-1 {
+        position: absolute;
+       font-size: 16px;
+       left: 40px; 
+    }
+    .menos-1{
+        position: absolute;
+       font-size: 16px;
+       right: px;
+   }
+/*menu-button2*/
+     .cm2{
+        
+        position: relative;
+        height: auto;
+        border:2px solid rgb(214, 25, 120);
+        margin:0;
+        left: 120px;
+        width: 100px;
+        height: auto;
+        bottom: 320px;
+    }
+    .cm2 p{
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*menu-button3*/
+    
+    
+   
+     .cm3{
+        position: relative;
+        width: 100px;
+        height: auto;
+        border:2px solid rgb(0, 68, 255);
+        bottom: 270px;
+        left: 120px;
+
+     }
+     .cm3 p{
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+ 
