@@ -1,13 +1,35 @@
 @import url("assets/components/navbar.css");
 
-.container {
-    position: relative;
+* {
+    box-sizing: border-box;
 }
 
+header {
+    border: 2px solid green;
+}
+
+.logo-head {
+    width: 30%;
+    min-height: auto;
+    padding-top: 3%;
+    }
+
+h1{
+    text-align:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+}
+h2 {
+    text-align:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 24px;
+}
 
 main{
     position: relative;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 100%;
     height: 100%;
 }
@@ -15,12 +37,70 @@ main{
 .slider {
     display: inline-block;
     width: 100vw;
+    height: 20vh;
     white-space: nowrap;
-    position: relative;
+    
 }
 
 .imagenes-slider {
     height: 35%;
     width: 35%;
-    position: absolute;
+    border-radius: 30%;
+}
+
+.contador{
+    display:flex; 
+}
+
+.plato-1, .plato-2, .plato-3{
+    max-width: 100%;
+    /*border: 4px solid blue;*/
+    max-height: 15vh;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.platos-seleccion img{
+    width: 40%;
+    border-radius: 15%;
+}
+
+.platos-seleccion p, .platos-seleccion h4 {
+    margin: 0;
+    font-size: 12px;
+}
+
+.info-plato-1, .info-plato-2, .info-plato-3{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.contador {
+    /*border: solid 4px blue;*/
+    max-width: 100%;
+}
+
+.contador button {
+    border-style: none;
+    width: 15%;
+    border-radius: 5px;
+    height: auto;
+    
+}
+
+p.precio{
+    color: #FF6B00;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.info-plato-1 h4, 
+div.info-plato-2 h4, 
+div.info-plato-3 h4 {
+    font-size: 20px;
+}
+
+.descripcion {
+    color: grey;
 }
