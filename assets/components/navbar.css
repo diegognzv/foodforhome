@@ -1,5 +1,6 @@
 nav {
     position: fixed;
+    left:0;
     padding: 1% 1% 0% 1%;
     bottom: 0px;
     max-width: 90%;
