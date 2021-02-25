@@ -12,7 +12,15 @@ main{
     height: 100%;
 }
 
+.slider {
+    display: inline-block;
+    width: 100vw;
+    white-space: nowrap;
+    position: relative;
+}
+
 .imagenes-slider {
     height: 35%;
     width: 35%;
+    position: absolute;
 }
