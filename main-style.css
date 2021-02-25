@@ -1,9 +1,26 @@
 @import url("assets/components/navbar.css");
 
-.container {
-    
+header {
+    border: 2px solid green;
 }
+.logo-head {
+    width: 30%;
+    min-height: auto;
+    padding-top: 3%;
+    }
 
+h1{
+    text-align:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+}
+h2 {
+    text-align:left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 24px;
+}
 
 main{
     position: relative;
@@ -67,5 +84,4 @@ div.info-plato-3 h4 {
 
 .descripcion {
     color: grey;
-    font-size:
 }
