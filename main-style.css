@@ -11,3 +11,8 @@ main{
     width: 100%;
     height: 100%;
 }
+
+.imagenes-slider {
+    height: 35%;
+    width: 35%;
+}
