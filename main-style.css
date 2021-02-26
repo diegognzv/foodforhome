@@ -5,7 +5,7 @@
 }
 
 header {
-    border: 2px solid green;
+    display: flex;
 }
 
 .logo-head {
@@ -14,12 +14,18 @@ header {
     padding-top: 3%;
     }
 
+.titulos {
+    flex-flow: row;
+    align-items: right;
+} 
+
 h1{
     text-align:left;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 40px;
+    font-size: 30px;
 }
+
 h2 {
     text-align:left;
     padding-left: 5%;
