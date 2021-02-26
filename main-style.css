@@ -43,15 +43,20 @@ main{
     height: 20vh;
     position: relative;
     text-align: center;
-    padding-top: 5%;       
+    padding-top: 5%;
+    overflow-x: hidden;       
 }
 
 .slider::-webkit-scrollbar {
-    visibility: hidden;
+    display: none;
+}
+
+.cajas-slider {
+    background-color: blue;
 }
 
 .imagenes-slider {
-    height: 35%;
+    height: 25%;
     width: 35%;
     border-radius: 30%;
 }
