@@ -38,9 +38,12 @@ main{
 .slider {
     display: flex;
     flex-flow: row;
-    width: 100vw;
-    height: 20vh;
-        
+    width: 98%;
+    height: 25vh;        
+}
+
+.slider::-webkit-scrollbar {
+    visibility: hidden;
 }
 
 .imagenes-slider {
