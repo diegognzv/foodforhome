@@ -16,6 +16,7 @@
 
 header {
     border: 2px solid green;
+    width: 100%;
 }
 
 .logo-head {
@@ -49,7 +50,10 @@ main{
     display: flex;
     flex-flow: row;
     width: 98%;
-    height: 15vh;        
+    height: 20vh;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;       
 }
 
 .slider::-webkit-scrollbar {
