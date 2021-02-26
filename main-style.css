@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url("assets/components/navbar.css");
+
+.container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Lato, Roboto, sans-serif;
+}
 
 * {
     box-sizing: border-box;
 }
 
 header {
-    border: 2px solid green;
-    width: 100%;
+    display: flex;
 }
 
 .logo-head {
@@ -15,12 +24,18 @@ header {
     padding-top: 3%;
     }
 
+.titulos {
+    flex-flow: row;
+    align-items: right;
+} 
+
 h1{
     text-align:left;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 40px;
+    font-size: 30px;
 }
+
 h2 {
     text-align:left;
     padding-left: 5%;
@@ -70,13 +85,18 @@ main{
     /*border: 4px solid blue;*/
     max-height: 15vh;
     display: flex;
+    
     margin-top: 4%;
     margin-bottom: 4%;
 }
 
-.platos-seleccion img{
+.platos-seleccion .plato-1 img,
+.platos-seleccion .plato-2 img,
+.platos-seleccion .plato-3 img{
+    height: auto;
     width: 40%;
-    border-radius: 15%;
+    border-radius: 20px;
+    
 }
 
 .platos-seleccion p, .platos-seleccion h4 {
@@ -92,14 +112,36 @@ main{
 .contador {
     /*border: solid 4px blue;*/
     max-width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .contador button {
     border-style: none;
-    width: 15%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
-    height: auto;
+    height: 3vh;
+    margin-top: 4%;
     
+}
+
+div.platos-seleccion{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 5%;
+}
+    
+
+div.contador p{
+    margin: 3% 3% 0 3%;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 p.precio{
