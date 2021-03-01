@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url("assets/components/navbar.css");
 
-/*
+
 body{
     
     width:100% ;
@@ -16,7 +16,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     font-family: Lato, Roboto, sans-serif;
-}*/
+}
 
 * {
     box-sizing: border-box;
@@ -87,6 +87,7 @@ main .platos-seleccion{
 .slider::-webkit-scrollbar{
     width: 0;
 }
+
 .slider .item  {
     min-width: 110px;
     height: 110px;
@@ -165,7 +166,6 @@ div.platos-seleccion{
     max-width: 100%;
     margin-left: 5%;
 }
-    
 
 div.contador p{
     margin: 3% 3% 0 3%;
@@ -188,6 +188,7 @@ div.info-plato-3 h4 {
 .descripcion {
     color: grey;
 }
+
 .content{
     display: flex;
     flex-direction: row;
@@ -200,16 +201,19 @@ nav img {
     width: 20px;
     height: 20px;
 }
+
 nav button{
     width: 100%;
     background: chartreuse;
     list-style-type:none;
 }
+
 nav li span .iconify{
     display: flex;
     width: 100%;
     height: 15px;
 }
+
 @media (max-width: 600px){
     header{
        grid-template-columns: repeat(1, 1fr);
@@ -223,14 +227,14 @@ nav li span .iconify{
         font-size: 1%;
     }
    
-    } 
-    }
+    
+    
     .content img{
         display: none;
         
     }
     
-}
+
 @media (max-width:300px){
     
     .platos-seleccion{
