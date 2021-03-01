@@ -66,15 +66,22 @@ main .platos-seleccion{
 }
 
 .slider{
-    max-height: 120px;
+    max-height: 140px;
     border: 1px solid rgb(158, 41, 41);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     overflow-x: auto;
 }
 
 .slider::-webkit-scrollbar{
     width: 0;
+}
+
+.imagenes-slider {
+    height: 73%;
+    border-radius: 20px;
+    max-width: 90%;
 }
 
 .slider .item  {
