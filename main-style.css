@@ -173,7 +173,6 @@ div.info-plato{
     color: grey;
     font-size: 13px;
 }
-<<<<<<< HEAD
 .content{
     display: flex;
     flex-direction: row;
@@ -202,9 +201,6 @@ nav li span .iconify{
     
     
 }
-=======
-/*
->>>>>>> 61af7e54e2cf64547dfb9fed1acca6a461cd7261
 @media (max-width: 600px){
     header{
        grid-template-columns: repeat(1, 1fr);
@@ -219,7 +215,6 @@ nav li span .iconify{
     }
    
     .content img{
-<<<<<<< HEAD
         display: none;
         
     }
@@ -227,10 +222,6 @@ nav li span .iconify{
         display:block;
     }
     
-=======
-        display: none;   
-    }  
->>>>>>> 61af7e54e2cf64547dfb9fed1acca6a461cd7261
 }
 
 @media (max-width:300px){
@@ -243,7 +234,6 @@ nav li span .iconify{
     .content img{
         display: none;   
     }
-<<<<<<< HEAD
     
 }
 /*segunda pantalla*/
@@ -298,7 +288,7 @@ width: 100%;
 }
 .precio-final{
     display: flex;
-    flex-direction: ;
+
 }
 .pierna{
     display: flex;
@@ -311,10 +301,10 @@ width: 100%;
 }
 
     
-} 
+
 /*visible-invisible*/
 .menu-second-wiew {
-    justify-content: ;
+
     display: flex;
     cursor: pointer;
     right: 30px;
@@ -347,6 +337,3 @@ width: 100%;
 #menu-second-view {
     display: none;
 }
-=======
-}*/
->>>>>>> 61af7e54e2cf64547dfb9fed1acca6a461cd7261
