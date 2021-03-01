@@ -2,51 +2,49 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <!--/*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main-style.css">
     <title>Food For Home</title>
 </head>
 <body>
-    <div class="container">
+    <div id="menu-first-view" class="container">
         <header>
-            <img class="logo-head" src="assets/img/logo-restaurant.png">
+            <img class="logo-header" src="assets/img/logo-restaurant.png">
             <div class="titulos">
                 <h1>Food For Home</h1>
                 <h2>Restaurante F5</h2>
             </div>
         </header>
         <section>
-            <div class="slider">
-                
+            <div class="slider">                
                     <div class="item">
                     <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
                     <p>Desayunos</p>
                 </div>
                 <div class="item">
-                    <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
+                    <img class="imagenes-slider" src="https://cope-cdnmed.agilecontent.com/resources/jpg/0/2/1582281982120.jpg" alt="Un bocadillo">
                     <p>Bocadillos</p>
                 </div>
                 <div class="item">
-                    <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
+                    <img class="imagenes-slider" src="https://www.tastymediterraneo.com/wp-content/uploads/2019/02/Tasty-Mediterraneo-spicy-pasta-with-chard.jpeg" alt="Una pasta">
                     <p>Platos principales</p>
                 </div>
                 <div class="item">
-                    <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
+                    <img class="imagenes-slider" src="https://animalgourmet.com/wp-content/uploads/2016/06/tapas.jpg" alt="Una Tapa">
                     <p>Tapas</p>
                 </div>
                 <div class="item">
-                    <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
+                    <img class="imagenes-slider" src="https://www.thespruceeats.com/thmb/eQE-NcWIBZK9U7uVMT1fainW3Rk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gluten-free-new-york-cheesecake-1450985-hero-01-dc54f9daf38044238b495c7cefc191fa.jpg" alt="Una torta de queso">
                     <p>Postres</p>
                 </div>
                 <div class="item">
-                    <img class="imagenes-slider" src="https://www.dolce-gusto.es/media/wysiwyg/wysiwyg/blog/2016/11/desayunos-espana-cataluna.jpg" alt="Pan con tomate">
+                    <img class="imagenes-slider" src="https://www.merca2.es/wp-content/uploads/2019/04/coca-pepsi-696x522.jpg" alt="Latas">
                     <p>Bebidas</p>
                 </div>
     
             </div>
-            </section>
-            <main>
+        </section>
+        <main>
             <div class="platos-seleccion">
                 <div class="plato-item">
                     <img src="assets/img/1desayunos/estandar.jpg" /> 
@@ -364,8 +362,8 @@
     
             </div>
         </main>
-        <nav class="navBajo">
-            <button></button>
+        
+        <nav class="container">    
             <ul>
                 <li>
                     <a href="#">
@@ -377,12 +375,14 @@
                         <img class="menuIcon notifications" class="notifications" src="assets/img/mail.png" alt="notifications">
                     </a>
                 </li>
+                    <button id="enviar"></button>
                 <li>
                     <a href="#">
                         <img class="menuIcon favorites" src="assets/img/favorites.png" alt="favorites">
                     </a>
-                </li>
-                <li>
+                </li>            
+    
+                  <li>
                     <a href="#">
                         <img class="menuIcon profile" src="assets/img/user.png" alt="profile">
                     </a>
@@ -391,6 +391,92 @@
         </nav>
 
     </div>
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script
+
+    <section id="menu-second-view">
+
+
+        <div class="padre">
+            <div class="logos">
+            <div class="logo1">
+                <img src="assets/img/Vector.png">
+                
+            </div>
+            <div class="logo2">
+                <img src="assets/img/Vector (1).png">
+            </div>
+        </div>
+            <h3>My cart</h3>
+
+            <div class="platos-seleccion">
+                <div class="plato-1" data-numero>
+                    <img src="assets/img/chips.jpg" />                
+                    <div class="info-plato-1">
+                        <p class="precio">15€</p>
+                        <h4>Patatas Fritas</h4>
+                        <p class="descripcion"> con salsa de queso</p>
+                        <div class="contador">
+                            <button class onclick>-</button>
+                            <p id>0</p>
+                            <button class onclick>+</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="plato-2">
+                    <img src="assets/img/salad.jpg" /> 
+                    <div class="info-plato-2">                    
+                        <p class="precio">05€</p>
+                        <h4>Ensalada</h4>
+                        <p class="descripcion">con huevo duro y pepinillos</p>
+                        <div class="contador">
+                            <button class="" onclick="">-</button>
+                            <p id>0</p>
+                            <button class="" onclick="">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plato-3">
+                    <img src="assets/img/paella.jpg" />         
+                    <div class="info-plato-3">
+                        <p class="precio">25€</p>
+                        <h4>Paella</h4>
+                        <p class="descripcion">con mejillones</p>
+                        <div class="contador">
+                            <button class onclick>-</button>
+                            <p id>0</p>
+                            <button class onclick>+</button>
+                        </div>
+                    </div>
+                </div>
+                    <footer >
+                        <div class="pierna">
+                      <div class="list">
+                          <ul class="total">
+                             <li>Subtotal</li>
+                             <li>Tak&Fes</li>
+                             <li>Delivery</li>
+                             <li>Total</li>
+                              
+
+                          
+                          <ul class="precio-final">
+                            <li>18$</li>
+                            <li>15$</li>
+                            <li>8$</li>
+                            <li>33$</li>
+                          
+                          </ul>
+                           <button>ENVIAR PEDIDO</button>
+
+            
+                      </div>
+
+                           
+                      
+                    </footer>
+                </div>
+
+    </section>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
