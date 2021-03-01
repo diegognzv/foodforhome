@@ -103,7 +103,6 @@ main .platos-seleccion{
     font-size: 15px;
 }
 
-
 .contador{
     display:flex; 
 }
@@ -125,12 +124,17 @@ main .platos-seleccion{
 
 .plato-item h4 {
     margin: 0;
-    font-size: 12px;
+    font-size: 21px;
 }
 
 .info-plato {
-    width: 50%;
+    width: 100%;
     margin-left: 5%;
+}
+
+.descripcion {
+    font-size: 12px;
+    margin-right: 5%;
 }
 
 .contador {
