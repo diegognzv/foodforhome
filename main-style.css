@@ -81,7 +81,6 @@ main .platos-seleccion{
 
 .slider{
     max-height: 140px;
-    border: 1px solid rgb(158, 41, 41);
     display: flex;
     justify-content: space-between;
     align-items: center;
