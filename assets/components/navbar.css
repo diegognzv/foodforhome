@@ -1,5 +1,5 @@
 nav {
-    background-color: rgba(236, 236, 236, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     left: 0;
     padding: 1% 1% 0% 1%;
@@ -11,7 +11,7 @@ nav {
     justify-content: space-around;
 }
 
-nav ul li button {
+.botonCompra {
     background-color: #FF6B00;
     background-image: url("../img/mycart.png");
     background-size: 60%;
@@ -41,4 +41,4 @@ nav ul {
 
 .menuIcon {
     width: 3.5vh;
-  }
+}
