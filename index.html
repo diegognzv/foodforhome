@@ -8,7 +8,7 @@
     <title>Food For Home</title>
 </head>
 <body>
-    <div class="container">
+    <div id="menu-first-view" class="container">
         <header>
             <img class="logo-head" src="assets/img/logo-restaurant.png">
             <div class="titulos">
@@ -62,8 +62,8 @@
 
                 
             </div>
-            </section>
-            <main>
+        </section>
+        <main>
             <div class="platos-seleccion">
                 <div class="plato-1" data-numero>
                     <img src="assets/img/chips.jpg" />                
@@ -108,8 +108,7 @@
         </main>
         <nav>           
             <ul class="content">
-                <li><button><span class="iconify" data-inline="false" data-icon="mdi-light:cart" style="font-size: 24px; color: red;"></span></button></li>
-                <li>
+             
                     <a href="#">
                         <img class="menuIcon home" src="assets/img/home.png" alt="home">
                     </a>
@@ -122,12 +121,19 @@
                 <li>
                     
                 </li>
+
+                <li><button onclick="openShoppingCart()" id="enviar"><span class="iconify" data-inline="false" data-icon="mdi-light:cart" style="font-size: 24px; color: red;"></span></button></li>
+                
                 <li>
                     <a href="#">
                         <img class="menuIcon favorites" src="assets/img/favorites.png" alt="favorites">
                     </a>
                 </li>
-                <li>
+
+
+             
+                
+                  <li>
                     <a href="#">
                         <img class="menuIcon profile" src="assets/img/user.png" alt="profile">
                     </a>
@@ -136,6 +142,92 @@
         </nav>
 
     </div>
-    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script
+
+    <section id="menu-second-view">
+
+
+        <div class="padre">
+            <div class="logos">
+            <div class="logo1">
+                <img src="assets/img/Vector.png">
+                
+            </div>
+            <div class="logo2">
+                <img src="assets/img/Vector (1).png">
+            </div>
+        </div>
+            <h3>My cart</h3>
+
+            <div class="platos-seleccion">
+                <div class="plato-1" data-numero>
+                    <img src="assets/img/chips.jpg" />                
+                    <div class="info-plato-1">
+                        <p class="precio">15€</p>
+                        <h4>Patatas Fritas</h4>
+                        <p class="descripcion"> con salsa de queso</p>
+                        <div class="contador">
+                            <button class onclick>-</button>
+                            <p id>0</p>
+                            <button class onclick>+</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="plato-2">
+                    <img src="assets/img/salad.jpg" /> 
+                    <div class="info-plato-2">                    
+                        <p class="precio">05€</p>
+                        <h4>Ensalada</h4>
+                        <p class="descripcion">con huevo duro y pepinillos</p>
+                        <div class="contador">
+                            <button class="" onclick="">-</button>
+                            <p id>0</p>
+                            <button class="" onclick="">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plato-3">
+                    <img src="assets/img/paella.jpg" />         
+                    <div class="info-plato-3">
+                        <p class="precio">25€</p>
+                        <h4>Paella</h4>
+                        <p class="descripcion">con mejillones</p>
+                        <div class="contador">
+                            <button class onclick>-</button>
+                            <p id>0</p>
+                            <button class onclick>+</button>
+                        </div>
+                    </div>
+                </div>
+                    <footer >
+                        <div class="pierna">
+                      <div class="list">
+                          <ul class="total">
+                             <li>Subtotal</li>
+                             <li>Tak&Fes</li>
+                             <li>Delivery</li>
+                             <li>Total</li>
+                              
+
+                          
+                          <ul class="precio-final">
+                            <li>18$</li>
+                            <li>15$</li>
+                            <li>8$</li>
+                            <li>33$</li>
+                          
+                          </ul>
+                           <button>ENVIAR PEDIDO</button>
+
+            
+                      </div>
+
+                           
+                      
+                    </footer>
+                </div>
+
+    </section>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
