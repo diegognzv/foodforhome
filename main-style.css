@@ -59,13 +59,9 @@ main {
     overflow: hidden;
 }
 
-main .platos-seleccion {
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    justify-content: space-between;
-}
-
 .slider {
+    margin-top: 5%;
+    margin-bottom: 8%;
     max-height: 140px;
     display: flex;
     justify-content: space-between;
@@ -88,7 +84,6 @@ main .platos-seleccion {
     height: 110px;
     background-color: white;
     margin-right: 4px;
-
 }
 
 .item img {
@@ -131,7 +126,6 @@ main .platos-seleccion {
 }
 
 .contador {
-    max-width: 100%;
     display: flex;
     align-items: center;
 }
@@ -145,7 +139,8 @@ main .platos-seleccion {
     border-radius: 2px;
     width: 30px;
     height: 30px;
-    margin-top: 4%;  
+    margin-top: 4%;
+    border: solid 1px #e6e6e6;
 }
 
 div.platos-seleccion {
@@ -155,6 +150,7 @@ div.platos-seleccion {
     justify-content: center;
     max-width: 100%;
     margin-left: 5%;
+    margin-bottom: 25%;
 }
 
 div.contador p {
