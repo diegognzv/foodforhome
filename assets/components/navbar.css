@@ -12,6 +12,7 @@ nav {
 }
 
 #openCart {
+    cursor: pointer;
     background-color: #FF6B00;
     background-image: url("../img/mycart.png");
     background-size: 60%;
@@ -41,4 +42,5 @@ nav ul {
 
 .menuIcon {
     width: 3.5vh;
+    height: auto;
 }
