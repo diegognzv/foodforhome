@@ -32,6 +32,7 @@ header {
 }
 
 .titulos {
+    height: 100%;
     width: 100%;
     padding-top: 18px;
 }
@@ -87,7 +88,7 @@ main .platos-seleccion{
     min-width: 110px;
     height: 110px;
     background-color: white;
-    margin-right: 4px;
+    margin: auto;
 
 }
 
@@ -117,12 +118,17 @@ main .platos-seleccion{
 
 .plato-item h4 {
     margin: 0;
-    font-size: 16px;
+    font-size: 21px;
 }
 
 .info-plato {
     width: 100%;
     margin-left: 5%;
+}
+
+.descripcion {
+    font-size: 12px;
+    margin-right: 5%;
 }
 
 .contador {
@@ -172,7 +178,34 @@ div.info-plato{
     color: grey;
     font-size: 13px;
 }
-/*
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav img {
+    width: 20px;
+    height: 20px;
+}
+nav button{
+    width: 100%;
+    background: rgb(196, 79, 147);
+    list-style-type:none;
+    transform: translate(-50%, -50%);
+}
+nav li span .iconify{
+    display: flex;
+    width: 100%;
+    height: 15px;
+}
+.content nav span.iconify{
+    display: flex;
+    
+    
+}
 @media (max-width: 600px){
     header{
        grid-template-columns: repeat(1, 1fr);
@@ -187,8 +220,13 @@ div.info-plato{
     }
    
     .content img{
-        display: none;   
-    }  
+        display: none;
+        
+    }
+    section{
+        display:block;
+    }
+    
 }
 
 @media (max-width:300px){
@@ -201,4 +239,106 @@ div.info-plato{
     .content img{
         display: none;   
     }
-}*/
+    
+}
+/*segunda pantalla*/
+/*img logo*/
+.logos div{
+    display:flex;
+    margin: 10px;
+
+}
+.logos {
+    
+    display:flex;
+    margin-top:10px ;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logos.logo2{
+    display: flex;
+   
+}
+.logos div img{
+    display: grid;
+    justify-content: space-between;
+}
+/*footer*/
+.padre{
+    display: flex;
+    background: rgba(228, 228, 228, 0.91);
+border: radius 24px;
+flex-direction: column;
+justify-content: space-around;
+height: auto;
+width: 100%; 
+}
+
+
+.list ul {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    justify-content: space-around;
+    padding:0 50px ;
+
+    
+    
+}
+.total li{
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+}
+.precio-final{
+    display: flex;
+
+}
+.pierna{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: lightcoral;
+    height: 200px;
+    background: rgba(223, 71, 23, 0.91);
+    border-radius: 20px;
+}
+
+    
+
+/*visible-invisible*/
+.menu-second-wiew {
+
+    display: flex;
+    cursor: pointer;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    height: 100%;   
+}
+.menu-second-wiew footer button{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+}
+.enviar{
+    
+    cursor: pointer;
+   
+
+}
+
+.visible{
+    display: block !important;
+
+}
+
+.invisible {
+    display: none;
+}
+
+#menu-second-view {
+    display: none;
+}
