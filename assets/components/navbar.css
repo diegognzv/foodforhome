@@ -11,7 +11,7 @@ nav {
     justify-content: space-around;
 }
 
-#enviar {
+#openCart {
     background-color: #FF6B00;
     background-image: url("../img/mycart.png");
     background-size: 60%;
