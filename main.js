@@ -9,13 +9,14 @@ function loadButtons(){
 }
 
 function openShoppingCart(){
+    console.log("función")
     shoppingCartView.classList.add('visible');
     menuMainView.classList.add('invisible');
 }
 
 function closeShoppingCart(){
-    shoppingCartView.classList.add('invisible');
-    menuMainView.classList.add('visible');
+    shoppingCartView.classList.remove('visible');
+    menuMainView.classList.remove('invisible');
 }
 
 loadButtons();

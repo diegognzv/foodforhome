@@ -260,10 +260,10 @@ nav li span .iconify{
     display: flex;
    
 }
-.logos div img{
+/*.logos div img{
     display: grid;
     justify-content: space-between;
-}
+}*/
 /*footer*/
 .padre{
     display: flex;
@@ -304,7 +304,7 @@ width: 100%;
     width: 100%;
     background: lightcoral;
     height: 200px;
-    background: rgba(223, 71, 23, 0.91);
+    background: #FF6B00;
     border-radius: 20px;
 }
 
@@ -338,4 +338,8 @@ width: 100%;
 
 #menu-second-view {
     display: none;
+}
+
+#goBack {
+    width: 7%;
 }
