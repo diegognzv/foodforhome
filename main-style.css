@@ -88,7 +88,6 @@ main .platos-seleccion{
     height: 110px;
     background-color: white;
     margin-right: 4px;
-
 }
 
 .item img{
@@ -280,10 +279,7 @@ width: 100%;
     flex-flow: column;
     list-style-type: none;
     justify-content: space-around;
-    padding:0 50px ;
-
-    
-    
+    padding:0 50px ;   
 }
 
 .total li{
@@ -309,7 +305,6 @@ width: 100%;
 
 /*visible-invisible*/
 .menu-second-wiew {
-
     display: flex;
     cursor: pointer;
     right: 30px;
