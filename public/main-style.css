@@ -316,4 +316,15 @@ footer {
         width: 140px;
         height: 100px;
     }
+
+    nav.container {
+        left: unset;
+    }
+}
+
+@media (min-width: 1024px) {
+    .plato-item {
+        max-width: 600px;
+    }
+   
 }
