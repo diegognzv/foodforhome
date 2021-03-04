@@ -224,6 +224,7 @@ nav li span .iconify {
     width: auto;
     flex-direction: row;
     justify-content: space-between;
+    align-items:center;
 }
 
 .logos.logo2 {
@@ -231,7 +232,7 @@ nav li span .iconify {
 }
 
 /*footer*/
-.pierna {
+.cuadro-naranja {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -239,6 +240,13 @@ nav li span .iconify {
     background: #FF6B00;
     border-radius: 20px;
     align-items:center;
+}
+
+.list {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #goBack {
