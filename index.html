@@ -41,12 +41,11 @@
                     <img class="imagenes-slider" src="https://www.merca2.es/wp-content/uploads/2019/04/coca-pepsi-696x522.jpg" alt="Latas">
                     <p class="texto-slider">Bebidas</p>
                 </div>
-                <div class="invisiblediv"></div>
             </div>
         </section>
         <main>
             <div class="platos-seleccion">
-                <!--<div class="plato-item">
+                <div class="plato-item">
                     <img src="assets/img/1desayunos/estandar.jpg" /> 
                     <div class="info-plato">                    
                         <p class="precio">3'5€</p>
@@ -314,7 +313,7 @@
                         <p class="descripcion">Fuente de chocolate fundido con frutas varias.</p>
                         <div class="contador">
                             <button class="" onclick="">-</button>
-                            <p>0</p>
+                            <p id>0</p>
                             <button class="" onclick="">+</button>
                         </div>
                     </div>
@@ -327,7 +326,7 @@
                         <p class="descripcion">Jarra de zumo recién exprimido.</p>
                         <div class="contador">
                             <button class="" onclick="">-</button>
-                            <p>0</p>
+                            <p id>0</p>
                             <button class="" onclick="">+</button>
                         </div>
                     </div>
@@ -357,7 +356,7 @@
                             <button class="" onclick="">+</button>
                         </div>
                     </div>
-                </div>-->    
+                </div>    
             </div>
         </main>
         <nav class="container">    
@@ -402,52 +401,19 @@
         </main>
         <footer >
             <div class="cuadro-naranja">
-                <div class="texto-footer">
+                <div>
                     <div class="list">
                         <p>Subtotal</p>
                         <p>Tax & Fees</p>
                         <p>Delivery</p>
                         <p>TOTAL</p>
                     </div>
-                    <div class="precio-total">
-                        <p>0</p>
-                        <p>0</p>
-                        <p>0</p>
-                        <p>0</p>
-                    </div>                
+                    <div class="precio-total"></div>                
                 </div>
-                <div class="div-boton-enviar">
-                    <button class="boton-enviar">Enviar pedido</button>
                 </div>
-            </div>
         </footer>
     </section>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <script src="printMain.js"></script>
-    <script src="openCartButton.js"></script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
-
-    <script>
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        var firebaseConfig = {
-            apiKey: "AIzaSyBZXVPxtijVCOizh_7icjZFbyCEd7S2r6g",
-            authDomain: "foodforhome-ff55e.firebaseapp.com",
-            projectId: "foodforhome-ff55e",
-            storageBucket: "foodforhome-ff55e.appspot.com",
-            messagingSenderId: "537894879265",
-            appId: "1:537894879265:web:8264ee2604873925fa6360",
-            measurementId: "G-2JCKF86MX4"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
