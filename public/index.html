@@ -46,7 +46,7 @@
         </section>
         <main>
             <div class="platos-seleccion">
-                <div class="plato-item">
+                <!--<div class="plato-item">
                     <img src="assets/img/1desayunos/estandar.jpg" /> 
                     <div class="info-plato">                    
                         <p class="precio">3'5€</p>
@@ -358,7 +358,7 @@
                             <button class="" onclick="">+</button>
                         </div>
                     </div>
-                </div>    
+                </div>-->    
             </div>
         </main>
         
@@ -391,7 +391,7 @@
 
     </div>
 
-    <section id="menu-second-view">
+    <section id="menu-second-view" class="container">
 
 
         <div class="padre">
@@ -476,6 +476,31 @@
 
     </section>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <script src="main.js"></script>
+    <script src="printMain.js"></script>
+    <script src="openCartButton.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBZXVPxtijVCOizh_7icjZFbyCEd7S2r6g",
+            authDomain: "foodforhome-ff55e.firebaseapp.com",
+            projectId: "foodforhome-ff55e",
+            storageBucket: "foodforhome-ff55e.appspot.com",
+            messagingSenderId: "537894879265",
+            appId: "1:537894879265:web:8264ee2604873925fa6360",
+            measurementId: "G-2JCKF86MX4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </body>
 </html>
