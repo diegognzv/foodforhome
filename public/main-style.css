@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-    width:100% ;
+    width:100%;
+    max-width: 1024px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +34,7 @@ header {
 }
 
 .titulos {
+    height: 100%;
     width: 100%;
     padding-top: 18px;
 }
@@ -85,6 +87,10 @@ main {
     height: 110px;
     background-color: white;
     margin-right: 4px;
+}
+
+.texto-slider {
+    font-weight: bolder;
 }
 
 .item img {
@@ -225,15 +231,21 @@ nav li span .iconify {
 }
 
 /*footer*/
+
 .padre {
     display: flex;
     background: rgba(228, 228, 228, 0.91);
-    border: radius 24px;
+    border-radius: 24px;
     flex-direction: column;
     justify-content: space-around;
     height: auto;
     width: 100%; 
 }
+
+footer {
+    max-width: 1024px;
+    width: 100%;
+    }
 
 .list ul {
     display: flex;
@@ -273,9 +285,12 @@ nav li span .iconify {
     display: none;
 }
 
-.menu-second-wiew footer button {
-    display: flex;
-    flex-direction: column;
+.enviar {
+    background-color: #FAFAFA;
+    width: 80%;
+    height: 22%;;
+    border-radius: 15px;
+    font-weight: 790;
     align-self: flex-end;
 }
 
@@ -287,5 +302,3 @@ nav li span .iconify {
 .invisible {
     display: none;
 }
-
-
