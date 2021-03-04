@@ -266,11 +266,13 @@ footer {
 }
 
 .pierna {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: lightcoral;
-    height: 200px;
+    height: 30%;
     background: #FF6B00;
     border-radius: 20px;
     color: white;
