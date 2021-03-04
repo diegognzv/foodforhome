@@ -45,7 +45,7 @@
         </section>
         <main>
             <div class="platos-seleccion">
-                <div class="plato-item">
+                <!--<div class="plato-item">
                     <img src="assets/img/1desayunos/estandar.jpg" /> 
                     <div class="info-plato">                    
                         <p class="precio">3'5€</p>
@@ -356,7 +356,7 @@
                             <button class="" onclick="">+</button>
                         </div>
                     </div>
-                </div>    
+                </div>-->    
             </div>
         </main>
         <nav class="container">    
@@ -391,8 +391,43 @@
                 <div class="logo1">
                     <img id="goBack" src="assets/img/left-arrow.png">
                 </div>
+<<<<<<< HEAD:index.html
                 <div class="logo2">
                     <img src="assets/img/Vector (1).png">
+=======
+                <div class="plato-3">
+                    <img src="assets/img/paella.jpg" />         
+                    <div class="info-plato-3">
+                        <p class="precio">25€</p>
+                        <h4>Paella</h4>
+                        <p class="descripcion">con mejillones</p>
+                        <div class="contador">
+                            <button class onclick>-</button>
+                            <p id>0</p>
+                            <button class onclick>+</button>
+                        </div>
+                    </div>
+                </div>
+                    <footer >
+                      <div class="pierna">
+                         <div class="list">
+                             <ul class="total">
+                               <li>Subtotal</li>
+                               <li>Tak&Fes</li>
+                               <li>Delivery</li>
+                               <li>Total</li>
+                              </ul>
+                              <ul class="precio-final">
+                                <li>18$</li>
+                               <li>15$</li>
+                               <li>8$</li>
+                               <li>33$</li>
+                             </ul>
+                          </div>
+                           <button class="enviar">ENVIAR PEDIDO</button>
+                      </div> 
+                    </footer>
+>>>>>>> d83be3a0ad8da0b7fe83bb129830873646588d6b:public/index.html
                 </div>
             </div>
         </header>
@@ -408,6 +443,31 @@
         </footer>
     </section>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <script src="main.js"></script>
+    <script src="printMain.js"></script>
+    <script src="openCartButton.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBZXVPxtijVCOizh_7icjZFbyCEd7S2r6g",
+            authDomain: "foodforhome-ff55e.firebaseapp.com",
+            projectId: "foodforhome-ff55e",
+            storageBucket: "foodforhome-ff55e.appspot.com",
+            messagingSenderId: "537894879265",
+            appId: "1:537894879265:web:8264ee2604873925fa6360",
+            measurementId: "G-2JCKF86MX4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </body>
 </html>

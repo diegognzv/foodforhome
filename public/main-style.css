@@ -231,6 +231,43 @@ nav li span .iconify {
 }
 
 /*footer*/
+<<<<<<< HEAD:main-style.css
+=======
+
+.padre {
+    display: flex;
+    background: rgba(228, 228, 228, 0.91);
+    border-radius: 24px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    width: 100%; 
+}
+
+footer {
+    max-width: 1024px;
+    width: 100%;
+    }
+
+.list ul {
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    justify-content: space-around;
+    padding:0 50px ;  
+}
+
+.total li {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+}
+
+.precio-final {
+    display: flex;
+}
+>>>>>>> d83be3a0ad8da0b7fe83bb129830873646588d6b:public/main-style.css
+
 .pierna {
     display: flex;
     flex-direction: column;
@@ -250,6 +287,18 @@ nav li span .iconify {
     display: none;
 }
 
+<<<<<<< HEAD:main-style.css
+=======
+.enviar {
+    background-color: #FAFAFA;
+    width: 80%;
+    height: 22%;;
+    border-radius: 15px;
+    font-weight: 790;
+    align-self: flex-end;
+}
+
+>>>>>>> d83be3a0ad8da0b7fe83bb129830873646588d6b:public/main-style.css
 /*visible-invisible*/
 .visible {
     display: block !important;

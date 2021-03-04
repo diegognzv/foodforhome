@@ -2,6 +2,7 @@ let shoppingCartView = document.querySelector('#menu-second-view');
 let menuMainView = document.querySelector('#menu-first-view');
 
 function loadButtons(){
+    console.log("funcion")
     let openCart = document.getElementById('openCart');
     let goBack = document.getElementById('goBack'); 
     openCart.addEventListener('click', openShoppingCart);
@@ -9,7 +10,6 @@ function loadButtons(){
 }
 
 function openShoppingCart(){
-    console.log("función")
     shoppingCartView.classList.add('visible');
     menuMainView.classList.add('invisible');
 }
