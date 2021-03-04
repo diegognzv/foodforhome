@@ -229,11 +229,11 @@ function imprimirMain(){
                 <p class="descripcion">${arrayPlatos[i].descripcion}</p>
                 <div class="contador">
                     <button class="" onclick="">-</button>
-                    <p id>0</p>
+                    <p>0</p>
                     <button class="" onclick="">+</button>
                 </div>
             </div>
-        </div>`           
+        </div>`
     }
 }
 

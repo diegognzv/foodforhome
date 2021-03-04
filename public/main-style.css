@@ -24,6 +24,7 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
     max-width: 100%;
     height: 15vh;
     padding: 15px 0px 15px 15px;
@@ -34,8 +35,7 @@ header {
 }
 
 .titulos {
-    height: 100%;
-    width: 100%;
+    max-width: auto;
     padding-top: 18px;
 }
 
@@ -63,13 +63,14 @@ main {
 }
 
 .slider {
-    margin-top: 5%;
-    margin-bottom: 8%;
-    max-height: 140px;
+    /*margin-top: 5%;
+    margin-bottom: 8%;*/
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow-x: auto;
+    
 }
 
 .slider::-webkit-scrollbar {
@@ -77,34 +78,45 @@ main {
 }
 
 .imagenes-slider {
-    height: 73%;
-    border-radius: 20px;
-    max-width: 90%;
+    height: 70px;
+    width: 80px;
 }
 
 .slider .item {
-    min-width: 110px;
-    height: 110px;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
     background-color: white;
-    margin-right: 4px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 20px;
+    overflow: clip;
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+}
+
+.invisiblediv {
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    visibility: hidden;
+}
+
+.invisiblediv:after{
+    content: '...';
 }
 
 .texto-slider {
     font-weight: bolder;
-}
-
-.item img {
-    width: 150px;
-}
-
-.item p {
+    font-size: 12.5px;
     text-align: center;
     color: rgb(12, 11, 11);
-    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 7px;
 }
 
 .plato-item {
-    max-width: 100%;
+    width: 100%;
     max-height: 15vh;
     display: flex;
     margin-top: 4%;
@@ -113,7 +125,8 @@ main {
 
 .plato-item img {
     height: 100px;
-    width: 50%;
+    min-width: 110px;
+    max-width: 110px;
     border-radius: 20px;
 }
 
@@ -123,18 +136,23 @@ main {
 }
 
 .info-plato {
-    width: 100%;
     margin-left: 5%;
 }
 
 .descripcion {
     font-size: 12px;
-    margin-right: 5%;
+    max-width: 100%;
 }
 
 .contador {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: min-content;
+    box-shadow: 0px 0px 20px rgba(12, 11, 11, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 13px;
 }
 
 .contador button {
@@ -143,17 +161,15 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 2px;
     width: 30px;
     height: 30px;
-    margin-top: 4%;
     border: solid 1px #e6e6e6;
 }
 
 div.platos-seleccion {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     max-width: 100%;
     margin-left: 5%;
@@ -161,7 +177,7 @@ div.platos-seleccion {
 }
 
 div.contador p {
-    margin: 3% 3% 0 3%;
+    margin: 0px 10px;
     font-size: 13px;
     font-weight: 700;
 }
@@ -179,36 +195,6 @@ div.info-plato {
 .descripcion {
     color: grey;
     font-size: 13px;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-}
-
-nav img {
-    width: 20px;
-    height: 20px;
-}
-
-nav button {
-    width: 100%;
-    background: rgb(196, 79, 147);
-    list-style-type:none;
-    transform: translate(-50%, -50%);
-}
-
-nav li span .iconify {
-    display: flex;
-    width: 100%;
-    height: 15px;
-}
-
-.content nav span.iconify {
-    display: flex;  
 }
 
 /*segunda pantalla*/
@@ -293,4 +279,39 @@ nav li span .iconify {
 
 .invisible {
     display: none;
+}
+
+@media (min-width: 768px){
+    
+    div.plato-item {
+        margin-left: 10vh;
+    }
+
+    p.precio {
+        font-size: 18px;
+    }
+
+    .plato-item h4 {
+        font-size: 20px;
+    }
+
+    .plato-item .descripcion{
+        font-size: 14px; 
+    }
+
+    .plato-item img {
+        height: 130px;
+        min-width: 130px;
+        max-width: 130px;
+    }
+
+    .contador button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .imagenes-slider {
+        width: 140px;
+        height: 100px;
+    }
 }
