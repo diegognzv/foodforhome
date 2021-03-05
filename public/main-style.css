@@ -222,6 +222,7 @@ div.info-plato {
 /*footer*/
 
 .cuadro-naranja {
+    color: #FAFAFA;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -229,6 +230,8 @@ div.info-plato {
     background: #FF6B00;
     border-radius: 20px;
     align-items:center;
+    position: absolute;
+    bottom: 0;
 }
 
 .list {
@@ -244,7 +247,7 @@ div.info-plato {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 .texto-footer {
@@ -255,9 +258,10 @@ div.info-plato {
 
 .boton-enviar {
     font-size: 17px;
+    font-weight: 700;
     height: 45px;
-    width: 150px;
-    border: solid 2px black;
+    width: 250px;
+    border: none;
     border-radius: 10px;
 }
 
