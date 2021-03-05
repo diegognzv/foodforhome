@@ -18,5 +18,6 @@ function closeShoppingCart(){
     shoppingCartView.classList.remove('visible');
     menuMainView.classList.remove('invisible');
 }
-
+alert("WELCOM FAST FOOD")
 loadButtons();
+
