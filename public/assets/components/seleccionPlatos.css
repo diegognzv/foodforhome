@@ -1,0 +1,74 @@
+.plato-item {
+    width: 100%;
+    max-height: 15vh;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.plato-item img {
+    height: 100px;
+    min-width: 110px;
+    max-width: 110px;
+    border-radius: 20px;
+}
+
+.plato-item h4 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.descripcion {
+    max-width: 100%;
+    color: grey;
+    font-size: 13px;
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    box-shadow: 0px 0px 20px rgba(12, 11, 11, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 13px;
+}
+
+.contador button {
+    background-color: white;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #e6e6e6;
+}
+
+div.platos-seleccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-bottom: 25%;
+}
+
+div.contador p {
+    margin: 0px 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+p.precio {
+    color: #FF6B00;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.info-plato {
+    font-size: 20px;
+    margin-left: 5%;
+}

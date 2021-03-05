@@ -1,0 +1,53 @@
+.slider {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;  
+}
+
+.slider::-webkit-scrollbar {
+    width: 0;
+}
+
+.imagenes-slider {
+    height: 70px;
+    width: 80px;
+}
+
+.slider .item {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: white;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 20px;
+    overflow: clip;
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+}
+
+.invisiblediv {
+    width: 50px;
+    height: 50px;
+    background-color: inherit;
+    visibility: hidden;
+}
+
+.invisiblediv:after{
+    content: '...';
+}
+
+.texto-slider {
+    font-weight: bolder;
+    font-size: 12.5px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+    margin-top: 4px;
+    margin-bottom: 7px;
+}

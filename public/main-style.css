@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url("assets/components/navbar.css");
+@import url("assets/components/header.css");
+@import url("assets/components/slidermenu.css");
+@import url("assets/components/seleccionPlatos.css");
+@import url("assets/components/cuadroNaranjaCarrito.css");
 
 * {
     margin:0;
@@ -24,179 +28,12 @@ body {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 15vh;
-    padding: 15px 15px 15px 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo-header {
-    height: 100%;
-}
-
-.titulos {
-    width: -moz-fit-content;
-    padding-left: 3%;
-}
-
-h1 {
-    text-align: left;
-    font-size: 26px;
-}
-
-h2 {
-    text-align:left;
-    font-size: 14px;
-    font-weight: lighter;
-    color: grey;
-}
-
 main {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
-
-.slider {
-    /*margin-top: 5%;
-    margin-bottom: 8%;*/
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow-x: auto;
-    
-}
-
-.slider::-webkit-scrollbar {
-    width: 0;
-}
-
-.imagenes-slider {
-    height: 70px;
-    width: 80px;
-}
-
-.slider .item {
-    width: -moz-fit-content;
-    height: -moz-fit-content;
-    background-color: white;
-    margin-left: 13px;
-    margin-right: 13px;
-    border-radius: 20px;
-    overflow: clip;
-    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
-    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.48);
-    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
-}
-
-.invisiblediv {
-    width: 50px;
-    height: 50px;
-    background-color: inherit;
-    visibility: hidden;
-}
-
-.invisiblediv:after{
-    content: '...';
-}
-
-.texto-slider {
-    font-weight: bolder;
-    font-size: 12.5px;
-    text-align: center;
-    color: rgb(12, 11, 11);
-    margin-top: 4px;
-    margin-bottom: 7px;
-}
-
-.plato-item {
-    width: 100%;
-    max-height: 15vh;
-    display: flex;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-.plato-item img {
-    height: 100px;
-    min-width: 110px;
-    max-width: 110px;
-    border-radius: 20px;
-}
-
-.plato-item h4 {
-    margin: 0;
-    font-size: 17px;
-}
-
-.info-plato {
-    margin-left: 5%;
-}
-
-.descripcion {
-    font-size: 12px;
-    max-width: 100%;
-}
-
-.contador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: min-content;
-    box-shadow: 0px 0px 20px rgba(12, 11, 11, 0.2);
-    border-radius: 6px;
-    overflow: hidden;
-    margin-top: 13px;
-}
-
-.contador button {
-    background-color: white;
-    border-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border: solid 1px #e6e6e6;
-}
-
-div.platos-seleccion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin-left: 5%;
-    margin-bottom: 25%;
-}
-
-div.contador p {
-    margin: 0px 10px;
-    font-size: 13px;
-    font-weight: 700;
-}
-
-p.precio {
-    color: #FF6B00;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-div.info-plato {
-    font-size: 20px;
-}
-
-.descripcion {
-    color: grey;
-    font-size: 13px;
 }
 
 /*segunda pantalla*/
@@ -221,53 +58,7 @@ div.info-plato {
 
 /*footer*/
 
-.cuadro-naranja {
-    color: #FAFAFA;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-    background: #FF6B00;
-    border-radius: 20px;
-    align-items:center;
-    position: absolute;
-    bottom: 0;
-}
 
-.list {
-    font-size: 17px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10%;
-}
-
-.precio-total {
-    font-size: 17px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-}
-
-.texto-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.boton-enviar {
-    font-size: 17px;
-    font-weight: 700;
-    height: 45px;
-    width: 250px;
-    border: none;
-    border-radius: 10px;
-}
-
-.boton-enviar:hover {
-    background-color: gray;
-}
 
 #goBack {
     width: 7%;
