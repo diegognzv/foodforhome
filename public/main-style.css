@@ -228,6 +228,8 @@ div.info-plato {
     background: #FF6B00;
     border-radius: 20px;
     align-items:center;
+    position: absolute;
+    bottom: 0;
 }
 
 .list {
@@ -243,7 +245,7 @@ div.info-plato {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 .texto-footer {
